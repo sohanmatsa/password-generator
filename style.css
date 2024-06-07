@@ -8,11 +8,12 @@ body{
 .container{
     border-radius: 15px;
     background-color: rgb(16, 16, 59);
-    padding-top: 80px;
-    padding-bottom: 80px;
-    padding-left: 50px;
+    padding-top: 50px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    padding-right: 8px;
     min-width: 380px;
-    max-width: 800px;
+    max-width: 600px;
     margin: 0 auto;
     
 }
@@ -42,25 +43,63 @@ h2{
 
 button{
     margin-top: 25px;
-    padding: 9px 15px 9px 15px;  /* clockwise values i.e top, right, bottom, left */
+    padding: 9px 30px 9px 15px;  /* clockwise values i.e top, right, bottom, left */
     background-color: #10B981;
     border: none;
     border-radius: 5px;
     color: white;
     font-weight: bold;
     font-size: 16px;
+    background-image: url(lock.svg);
+    background-repeat: no-repeat;
+    background-position: 170px;
+    background-size: 20px;
+    cursor: pointer;
+    
+}
+
+
+hr{
+    margin-top: 20px;
+    width: auto;
+    border: 0;
+    border-top:1px solid #2F3E53;
+}
+
+#passwd-box{
+    display: flex;
+    margin-top: 30px;
+    height: 40px;
+    
 }
 
 #passwd-output{
-    margin-top: 25px;
+    text-align: center;
+    margin-left: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 20px;
     background-color: #273549;
-    width: 350px;
-    height: 39px;
+    color: #55F991;
+    border-radius: 10px;
+    border: none;
+    
 }
 
-#password{
+img{
+    height: 35px;
+    width: 28px;
+    margin-top: 2px;
+    margin-left: -30px;
+    background-color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+p{
+    color: #4ADF86;
     text-align: center;
-    font-size: 30px;
-    color: #55F991;
-    
+    margin-top: 50px;
+    margin-right: 20px;
 }

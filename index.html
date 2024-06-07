@@ -22,11 +22,15 @@
         <h1 id="title-1"> Generate a </h1>
         <h1 id="title-2"> Random Password </h1>
         <h2> Never use an insecure password again. </h2>
-        <button onclick="generate"> Generate password </button>
-        <div id="passwd-output">
-            <p id="password"> 45s5password </p>
+        <button onclick="generatePasswd()"> Generate password </button>
+        <hr>
+        <div id="passwd-box">
+            <input type="text" id="passwd-output" placeholder="password" maxlength="12"> 
+            <img src="Untitled.jpeg" onclick="copyPassword()">
         </div>
+        <p>&copy Sohan Matsa</p>
     </div>
+    <script src="script.js"></script>
 </body>
 
 </html>
