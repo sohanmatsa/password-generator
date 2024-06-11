@@ -1,5 +1,6 @@
 body{
-    margin: 10px;
+    margin: 0;
+    padding: 10px;
     margin-top: 125px;
     max-width: 100%;
     overflow-x: hidden;
@@ -8,14 +9,24 @@ body{
 .container{
     border-radius: 15px;
     background-color: rgb(16, 16, 59);
-    padding-top: 50px;
+    padding-top: 25px;
     padding-bottom: 10px;
     padding-left: 15px;
     padding-right: auto;
     min-width: 380px;
     max-width: 600px;
     margin: 0 auto;
+    overflow-x: hidden;
     
+}
+
+@media screen and (max-width: 320px){
+    .container{
+        margin-right: 15px;
+    }
+
+    
+
 }
 
 #title-1{
@@ -41,20 +52,27 @@ h2{
     margin-top: -10px;
 }
 
+
+.btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
 button{
-    margin-top: 25px;
     padding: 9px 30px 9px 15px;  /* clockwise values i.e top, right, bottom, left */
     background-color: #10B981;
     border: none;
     border-radius: 5px;
     color: white;
     font-weight: bold;
-    font-size: 16px;
+    font-size: 14px;
     background-image: url(lock.svg);
     background-repeat: no-repeat;
-    background-position: 170px;
+    background-position: 150px;
     background-size: 20px;
     cursor: pointer;
+    
     
 }
 
@@ -68,6 +86,7 @@ hr{
 
 #passwd-box{
     display: flex;
+    justify-content: center;
     margin-top: 30px;
     height: 40px;
     
@@ -75,9 +94,9 @@ hr{
 
 #passwd-output{
     text-align: center;
-    margin-left: 25px;
-    padding-left: 20px;
-    padding-right: 20px;
+    margin-left: -10px;
+    /* padding-left: 20px;
+    padding-right: 20px; */
     font-size: 20px;
     background-color: #273549;
     color: #55F991;
