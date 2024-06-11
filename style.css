@@ -52,11 +52,36 @@ h2{
     margin-top: -10px;
 }
 
+.slider{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 30px;
+
+}
+
+
+#pass-length{
+    color: #D5D4D8;
+    font-family: Inter,Verdana,sans-serif;
+}
+
+
+#slider-number{
+    color: black;
+    font-weight: bold;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 2px 4px 2px 4px;
+    background-color: azure;
+
+}
 
 .btn{
     display: flex;
     justify-content: center;
-    margin-top: 50px;
+    margin-top: 25px;
 }
 
 button{
@@ -87,7 +112,7 @@ hr{
 #passwd-box{
     display: flex;
     justify-content: center;
-    margin-top: 30px;
+    margin-top: 20px;
     height: 40px;
     
 }
@@ -116,7 +141,7 @@ img{
 }
 
 
-p{
+#copyright{
     color: #4ADF86;
     text-align: center;
     margin-top: 50px;

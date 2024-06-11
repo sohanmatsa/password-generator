@@ -23,6 +23,11 @@
         <h1 id="title-1"> Generate a </h1>
         <h1 id="title-2"> Random Password </h1>
         <h2> Never use an insecure password again. </h2>
+        <div class="slider">
+            <p id="pass-length">Password Length :</p>
+            <input type="range" id="range" min="8" max="12" value="10" onchange="updateSlider()">
+            <p id="slider-number">10</p>
+        </div>
         <div class="btn">
             <button onclick="generatePasswd()"> Generate password </button>
         </div>
@@ -31,7 +36,7 @@
             <input type="text" id="passwd-output" placeholder="password" maxlength="12">
             <img src="copy.svg" onclick="copyPassword()">
         </div>
-        <p>&copy Sohan Matsa</p>
+        <p id="copyright">&copy Sohan Matsa</p>
     </div>
     <script src="script.js"></script>
 </body>
